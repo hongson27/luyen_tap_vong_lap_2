@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+<table>
+
+
+</table>
+
+<script>
+let first = 0;
+let second  = 1;
+let next;
+let n = +prompt('Nhap n:');
+
+for (let i = 0; i <=n ; i ++) {
+document.write(first+"<br>");
+next = first + second;
+first = second;
+second = next;
+
+}
+</script>
+
+</body>
+</html>
