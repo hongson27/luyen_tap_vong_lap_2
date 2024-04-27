@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<script>
+for (let a=1; a<6; a++){
+for (let b=1; b<=a; b++){
+document.write('*');
+}
+document.write('<br>');
+}
+
+document.write('<br>');
+
+for (let c=1; c<6; c++){
+for (let d=6-c; d>0; d--){
+document.write('*');
+}
+document.write('<br>');
+}
+
+document.write('<br>');
+
+for (let e=1; e<6; e++){
+for (let f=5-e; f>0; f--){
+document.write('&ensp;');
+}
+for (let g=1; g<=e; g++){
+document.write('*');
+} 
+document.write('<br>');
+}
+
+document.write('<br>');
+
+for (let h=1; h<6; h++){
+for (let i=h-1; i>0 && i<=h-1; i--){
+document.write('&ensp;');
+}
+for (let j= 6-h;j>0;j--){
+document.write('*');
+}
+document.write('<br>');
+}
+
+</script>
+
+</body>
+</html>
