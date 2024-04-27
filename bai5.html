@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+let inputMoney = +prompt('Nhap so tien:');
+let inputRate = +prompt('Nhap lai suat:');
+let inputMonth = +prompt('Nhap so thang:');
+let result;
+for (let i=1; i<=inputMonth; i++){
+result = inputMoney*Math.pow((1+inputRate/100),i);
+document.write('So tien ban nhan duoc sau '+ i + 'thang la:' + result + '<br>');
+}
+
+</script>
+</body>
+</html>
