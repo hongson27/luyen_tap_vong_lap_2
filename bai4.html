@@ -2,21 +2,17 @@
 <html>
 <body>
 <script>
+for (let b=1; b<7; b++){
+if (b==1 || b==6){
 for (let a=1; a<21; a++){
 document.write('*');
 }
-document.write('<br>');
-
-for (let b=1; b<6; b++){
+} else {
+  for (let a=1; a<21; a++){
+    if ( a==1 || a ==17){
 document.write('*');
-for (let c=1; c<19; c++){
-document.write('&ensp;');
-}
-document.write('*');
-document.write('<br>');
-}
-for (let a=1; a<21; a++){
-document.write('*');
+} else {
+  document.write('&ensp;')
 }
 </script>
 </body>
